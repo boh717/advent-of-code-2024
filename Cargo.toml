@@ -1,0 +1,15 @@
+[package]
+name = "advent-of-code-2024"
+version = "0.1.0"
+edition = "2021"
+default-run = "welcome"
+
+[dependencies]
+
+[[bin]]
+name = "welcome"
+path = "src/main.rs"
+
+[[bin]]
+name = "day1"
+path = "src/day1.rs"
