@@ -5,6 +5,7 @@ edition = "2021"
 default-run = "welcome"
 
 [dependencies]
+regex = "1.11.1"
 
 [[bin]]
 name = "welcome"
@@ -17,3 +18,7 @@ path = "src/day1.rs"
 [[bin]]
 name = "day2"
 path = "src/day2.rs"
+
+[[bin]]
+name = "day3"
+path = "src/day3.rs"
