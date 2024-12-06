@@ -1,7 +1,7 @@
 use std::collections::HashSet;
 
 fn main() {
-    let content = std::fs::read_to_string("src/puzzles/puzzle-day5.txt").unwrap();
+    let content = std::fs::read_to_string("src/inputs/input-day5.txt").unwrap();
     let rules_and_updates: Vec<_> = content.split("\n\n").collect();
     let rules = rules_and_updates[0].split("\n").map(|s| s.to_string());
     let updates: Vec<String> = rules_and_updates[1]
